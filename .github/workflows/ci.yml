@@ -31,8 +31,6 @@ jobs:
  
       - name: Run build
         uses: matlab-actions/run-build@v1
-        with:
-            tasks: sldemo_absbrake
         
       # Runs a set of commands using the runners shell
       #- name: Run all tests
