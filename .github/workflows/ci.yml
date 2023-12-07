@@ -33,7 +33,7 @@ jobs:
         uses: matlab-actions/run-build@v1
         
       # Runs a set of commands using the runners shell
-      #- name: Run all tests
+      - name: Run all tests
         uses: matlab-actions/run-tests@v1
         with:
           source-folder: code
