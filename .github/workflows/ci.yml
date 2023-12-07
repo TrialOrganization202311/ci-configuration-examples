@@ -34,9 +34,9 @@ jobs:
         
       # Runs a set of commands using the runners shell
       #- name: Run all tests
-      #  uses: matlab-actions/run-tests@v1
-      #  with:
-      #    source-folder: code
+        uses: matlab-actions/run-tests@v1
+        with:
+          source-folder: code
 
       # You can use "run-command" to execute custom MATLAB scripts, functions, or statements.
       #- name: Run custom testing procedure
