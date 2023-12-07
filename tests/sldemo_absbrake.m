@@ -1,5 +1,5 @@
 % Open the model for this example
-openExample('sldemo_absbrake');
+load('sldemo_absbrake');
 
 % Create the test file, test suite, and test case structure
 tf = sltest.testmanager.TestFile('API Test File');
